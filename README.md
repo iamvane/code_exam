@@ -6,9 +6,9 @@ Programming Problem
 Given two filenames, open and read their contents line-by- line, processing each
 line in parallel to replace any double-quoted string that appears on a single
 line with its reversed value.
-Both files should be processed at the same time, operating on as many lines
 
-as are feasible without exhausting the stack.
+Both files should be processed at the same time, operating on as many linesas are feasible without exhausting the stack.
+
 So if a file contains a line like:
 Now it the time for &quot;all good men&quot; to come to the aid of their country.
 The resulting line should read:
