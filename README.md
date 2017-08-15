@@ -17,8 +17,11 @@ You must provide your own data files with at least 100 lines where at least half
 of the lines include a double-quoted string.
 
 ## Solution
-Step 1 Create data files
-Looked up some text
+Here is what I did
+
+### Step 1 
+Create data files and save them as data1.js and data2.js
+
 
 
 
