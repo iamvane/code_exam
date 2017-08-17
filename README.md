@@ -68,7 +68,7 @@ Promise.all([loadAndProcess("./data1.json"),loadAndProcess("./data2.json")]).the
  });
  ```
 ## To Begin
-Clone files and run with the following command
+Download repository, navigate to main project folder and run with the following command
 
 ```
 node app.js
