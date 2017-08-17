@@ -20,7 +20,7 @@ of the lines include a double-quoted string.
 Here is my process
 
 ### Step 1 
-Create data files (saved as data1.js and data2.js) and load the files asynchronously using fs.readFile() within a function the loadJsonAsync function
+Create data files (save as data1.json and data2.json) and load the files asynchronously using fs.readFile() within a function the loadJsonAsync function
 
 ```
 function loadJsonAsync(file) {
@@ -37,9 +37,9 @@ function loadJsonAsync(file) {
 
 ```
 
-###Step 2
+### Step 2
 
-Process my files with the loadAndProcess function. Which reseverses any characters inside double quotes
+Process my files with the loadAndProcess function, which reseverses any characters inside double quotes and logs the processed content to the console
 
 ```
 function loadAndProcess(f) {
@@ -58,7 +58,7 @@ function loadAndProcess(f) {
 
 ```
 
-###Step 3
+### Step 3
 Run the two files
 ```
 Promise.all([loadAndProcess("./data1.json"),loadAndProcess("./data2.json")]).then(data => {

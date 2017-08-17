@@ -17,7 +17,6 @@
   },
   "homepage": "https://github.com/iamvane/code_exam#readme",
   "dependencies": {
-    "asynch": "^0.5.2",
     "fs": "0.0.1-security"
   }
 }
