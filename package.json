@@ -1,0 +1,23 @@
+{
+  "name": "code_exam",
+  "version": "1.0.0",
+  "description": "Programming Problem",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iamvane/code_exam.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iamvane/code_exam/issues"
+  },
+  "homepage": "https://github.com/iamvane/code_exam#readme",
+  "dependencies": {
+    "asynch": "^0.5.2",
+    "fs": "0.0.1-security"
+  }
+}
