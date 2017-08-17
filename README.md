@@ -67,7 +67,12 @@ Promise.all([loadAndProcess("./data1.json"),loadAndProcess("./data2.json")]).the
     // error here
  });
  ```
+## To Begin
+Clone files and run with the following command
 
+```
+node app.js
+```
 
 
 
